@@ -1,0 +1,27 @@
+#root {
+  margin: 0rem;
+  padding: 0rem;
+}
+label{
+  font-size: 14px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.formSuccess{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+.errorMsg{
+    margin: 0px;
+    padding: 0px;
+    color: #ff0000;
+    font-size: 14px;
+}
